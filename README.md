@@ -1,8 +1,15 @@
 # HelloAbstractFactoryDesignPattern
+
 > [Source](https://golangbyexample.com/abstract-factory-design-pattern-go/)
+
+## Flow
+
+1. Generate `Factory`.
+2. `Factory` create object.
+
 ## Core elements
 
-1. Factory function ,all objects are generated from the factory function.
+1. Factory function ,factory function generate objects.
 
 ```
 // Factory generation
@@ -18,7 +25,7 @@ anAdidasShoe := adidasFactory.makeShoe()
 anAdidasShort := adidasFactory.makeShort()
 ```
 
-2. Interface ,all factory function return the interface.
+2. Interface ,factory function return the interface.
 
 ```
 type iSportsFactory interface {

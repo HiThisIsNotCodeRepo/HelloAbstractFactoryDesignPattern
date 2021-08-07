@@ -1,5 +1,6 @@
 package main
 
+// The implementations in iShort should different from objects.
 type iShort interface {
 	setLogo(logo string)
 	setSize(size int)

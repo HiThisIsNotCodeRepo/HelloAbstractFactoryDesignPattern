@@ -1,5 +1,6 @@
 package main
 
+// The implementations in iShoe should different from objects.
 type iShoe interface {
 	setLogo(logo string)
 	setSize(size int)
